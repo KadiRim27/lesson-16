@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>урок-16</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="make-appointment">
+
+            <div class="make-appointment__container">
+                <h2 class="make-appointment__title make-appointment__title_margin">Make an appointment</h2>
+                <form action="#" enctype="multipart/form-data" class="make-appointment__form form">
+                    <div class="form__items">
+
+                        <div class="form__item">
+                            <input type="text" required value="" name="username" placeholder="Name" autocomplete="off"
+                                class="form__input">
+                        </div>
+
+                        <div class="form__item">
+                            <input type="email" required value="" name="email" placeholder="Email" autocomplete="off"
+                                class="form__input">
+                        </div>
+                        <div class="form__item">
+                            <input type="tel" required value="" name="phone" placeholder="Phone Number"
+                                autocomplete="off" class="form__input">
+                        </div>
+
+                        <div class="form__item">
+                            <select class="form__select" name="select">
+                                <option name="option" value="" class="form__option">Service </option>
+                                <option name="option" value="" class="form__option">Service </option>
+                                <option name="option" value="" class="form__option">Service </option>
+                                <option name="option" value="" class="form__option">Service </option>
+                            </select>
+                        </div>
+                        <div class="form__item">
+                            <textarea class="form__textarea" name="textarea"
+                                placeholder="Tell us about your puppers include his/her name"></textarea>
+                        </div>
+
+
+                    </div>
+
+                    <div class="form__button-btn">
+                        <button class="button" type="submit">Make an Appointment</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+
+
+        <div class="billing-address">
+            <div class="billing-address__container">
+                <h2 class="billing-address__title billing-address__title_margin ">
+                    Billing Address
+                </h2>
+                <form action="#" enctype="multipart/form-data" class="billing-address__form form-address">
+                    <div class="form-address__items">
+                        <div class="form-address__item">
+                            <label for="input-01">Fullname</label>
+                            <input type="text" id="input-01" required value="" name="username"
+                                placeholder="Ex: Rasyidin Arsyad Nasution" autocomplete="off"
+                                class="form-address__input">
+                        </div>
+
+                        <div class="form-address__item">
+                            <label for="input-02">Email Address</label>
+                            <input type="text" id="input-02" required value="" name="username"
+                                placeholder="Ex: rasyid.arsyad@gmail.com" autocomplete="off"
+                                class="form-address__input">
+                        </div>
+                        <div class="form-address__item">
+                            <label for="input-03">Phone Number</label>
+                            <input type="text" id="input-03" required value="" name="username"
+                                placeholder="Ex: 089111888999" autocomplete="off" class="form-address__input">
+                        </div>
+                        <div class="form-address__item">
+                            <label for="input-04">Shipping Address</label>
+                            <input type="text" id="input-04" required value="" name="username"
+                                placeholder="Ex: Patriot Street Number 666, Ngaklik, Sleman" autocomplete="off"
+                                class="form-address__input">
+                        </div>
+                        <div class="form-address__item">
+                            <label for="input-05">Country</label>
+                            <select class="form-address__select" name="select" id="input-05">
+                                <option name="option" value="" class="form-address__option">United State of America
+                                    (USA)
+                                </option>
+                                <option name="option" value="" class="form-address__option">Japan </option>
+                                <option name="option" value="" class="form-address__option">Korea </option>
+                                <option name="option" value="" class="form-address__option">China </option>
+                            </select>
+                        </div>
+                        <div class="form-address__item">
+                            <label for="input-06">State/Province</label>
+                            <select class="form-address__select" name="select" id="input-06">
+                                <option name="option" value="" class="form-address__option">California </option>
+                                <option name="option" value="" class="form-address__option">Japan </option>
+                                <option name="option" value="" class="form-address__option">Korea </option>
+                                <option name="option" value="" class="form-address__option">China </option>
+                            </select>
+                        </div>
+                        <div class="form-address__item form-address__item_row">
+
+                            <div class="form-address__city">
+                                <label for="input-07">City</label>
+                                <select class="form-address__select" name="select" id="input-07">
+                                    <option name="option" value="" class="form-address__option">San Francisco</option>
+                                    <option name="option" value="" class="form-address__option">Japan </option>
+                                    <option name="option" value="" class="form-address__option">Korea </option>
+                                    <option name="option" value="" class="form-address__option">China </option>
+                                </select>
+                            </div>
+                            <div class="form-address__zip">
+                                <label for="input-08" class="form-address_label">Zip Code</label>
+                                <input type="text" id="input-08" required value="" name="username"
+                                    placeholder="Ex: 94024" autocomplete="off" class="form-address__input">
+                            </div>
+                        </div>
+
+                        <div class="form-address__item">
+                            <label for="input-09">Choose Courier</label>
+                            <select class="form-address__select" name="select" id="input-09">
+                                <option name="option" value="" class="form-address__option">DHL</option>
+                                <option name="option" value="" class="form-address__option">Japan </option>
+                                <option name="option" value="" class="form-address__option">Korea </option>
+                                <option name="option" value="" class="form-address__option">China </option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="form-address__buttons">
+                    <button class="form-address__btn form-address__btn_left">
+                        Continue Shopping
+                    </button>
+
+
+
+                    <button class="form-address__btn form-address__btn_right">
+                        Place My Order
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
